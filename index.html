@@ -9,7 +9,19 @@
   </head>
 
   <body>
-    <script src="index.js"></script>
+    <h1>User Submission Form</h1>  
+    <form class="form">  
+        <label>  
+            Name: <input type="text" name="name" id="name" required />  
+        </label><br />  
+        <label>  
+            Email: <input type="email" name="email" id="email" required />  
+        </label><br />  
+        <input type="submit" id="submit" value="Submit" />  
+    </form>  
+
+    <div id="responseMessage"></div> 
+    <script src="./index.js"></script>
   </body>
 
 </html>
